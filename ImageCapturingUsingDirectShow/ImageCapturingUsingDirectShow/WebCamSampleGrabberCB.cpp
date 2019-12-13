@@ -3,7 +3,7 @@
 
 CSampleGrabberCB::CSampleGrabberCB(VIDEOINFOHEADER * VideoInfoheader)
 {
-	lastTime = 0;
+	//lastTime = 0;
 	m_pGDI = NULL;
 	m_pGDI = (PGDI)LocalAlloc(LMEM_ZEROINIT, sizeof(GDI));
 	m_pGDI ->pBuffer = (UCHAR *)malloc(4000000);//1228800 Original Size
